@@ -6,3 +6,6 @@ Download sorurce linux-kernel + deb easy inpack https://drive.google.com/open?id
 $ sudo apt update && apt install -y libelf-dev flex bison build-essential libc-dev libc6-dev gcc g++ dpkg-dev bc fakeroot libncurses5-dev libssl-dev git make
 
 $ make -j16 bindeb-pkg
+
+
+CONFIG_ANDROID_BINDER_DEVICES="binder,hwbinder,vndbinder"
