@@ -7,5 +7,7 @@ $ sudo apt update && apt install -y libelf-dev flex bison build-essential libc-d
 
 $ make -j16 bindeb-pkg
 
+В будущем планируется встроить андроид в убунту и пользовать apk как приложения 
+
 
 CONFIG_ANDROID_BINDER_DEVICES="binder,hwbinder,vndbinder"
